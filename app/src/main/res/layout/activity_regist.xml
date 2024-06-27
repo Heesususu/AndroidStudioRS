@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegistActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:id="@+id/searchingsectionlinear1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/sectiondrama"
+                android:text="드라마"
+                android:textSize="18sp"
+                android:textColor="@android:color/white"
+                style="@style/Widget.MaterialComponents.Button"
+                android:layout_marginRight="8dp"
+                android:layout_weight ="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/sectionramance"
+                android:text="로맨스"
+                android:textSize="18sp"
+                android:textColor="@android:color/white"
+                style="@style/Widget.MaterialComponents.Button"
+                android:layout_marginRight="8dp"
+                android:layout_weight ="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/sectionschool"
+                android:text="학원"
+                android:textSize="18sp"
+                android:textColor="@android:color/white"
+                style="@style/Widget.MaterialComponents.Button"
+                android:layout_marginRight="8dp"
+                android:layout_weight ="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/sectionfantasy"
+                android:text="판타지"
+                android:textSize="18sp"
+                android:textColor="@android:color/white"
+                style="@style/Widget.MaterialComponents.Button"
+                android:layout_marginRight="8dp"
+                android:layout_weight ="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/sectionThriller"
+                android:text="스릴러"
+                android:textSize="18sp"
+                android:textColor="@android:color/white"
+                style="@style/Widget.MaterialComponents.Button"
+                android:layout_marginRight="8dp"
+                android:layout_weight ="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/sectionComedy"
+                android:text="코메디"
+                android:textSize="18sp"
+                android:textColor="@android:color/white"
+                style="@style/Widget.MaterialComponents.Button"
+                android:layout_marginRight="8dp"
+                android:layout_weight ="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                />
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+
+
+
+</android.support.constraint.ConstraintLayout>
